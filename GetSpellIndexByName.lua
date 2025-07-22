@@ -24,7 +24,7 @@ local function BuildSpellMap()
 end
 
 function GetSpellIndexByName(name)
- if not next(SpellNameToIndex) then
+ if not next(SpellNameToIndex) == nil then
   BuildSpellMap()
  end
  return SpellNameToIndex[string.lower(name)]
