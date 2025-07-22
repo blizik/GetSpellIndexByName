@@ -1,0 +1,4 @@
+## Interface: 11200
+## Title: GetSpellIndexByName
+## Notes: Adds a function to get your spellbook's ids by name
+GetSpellIndexByName.lua
